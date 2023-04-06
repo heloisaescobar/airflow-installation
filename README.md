@@ -5,9 +5,9 @@ Processo de Instalação do Apache Airflow e instalação dos plugins OCI
 
 Criar o diretório onde será instalado o airflow:
 
-'''
+´´´
 mkdir -p /data/airflow
-'''
+´´´
 
 Após a Criação do path, vamos instanciar a variável de ambiente:
 
