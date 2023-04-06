@@ -69,3 +69,14 @@ Se todos os comandos executarem com sucesso, seu airflow está disponível para 
 
 ## Administração através o shell
 
+- Executar Dag/Tarefa
+
+'''
+airflow tasks run <NOME_DAG> <NOME_TAREFA>
+'''
+
+- Armazenar informações de execução da DAG no banco de dados de backend
+
+'''
+airflow dags backfill <NOME_DAG>
+'''
